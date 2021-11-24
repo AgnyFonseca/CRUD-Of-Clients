@@ -1,0 +1,10 @@
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Maria Green', 123465789, 5200.0, TIMESTAMP WITH TIME ZONE '1986-08-14T10:00:00Z', 2);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Bob Brown', 987654321, 1600.0, TIMESTAMP WITH TIME ZONE '1992-01-01T10:00:00Z', 1);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Christian Grey', 147852369, 1000000.0, TIMESTAMP WITH TIME ZONE '1989-09-29T10:00:00Z', 4);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Alex Blue', 369852147, 3000.0, TIMESTAMP WITH TIME ZONE '1998-02-17T10:00:00Z', 2);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Josefina Black', 333222874, 1000.0, TIMESTAMP WITH TIME ZONE '2000-11-25T10:00:00Z', 2);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Rosa White', 777888441, 17500.0, TIMESTAMP WITH TIME ZONE '1996-05-02T10:00:00Z', 1);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Dolores Red', 741854789, 500.0, TIMESTAMP WITH TIME ZONE '2005-06-07T10:00:00Z', 0);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Violet Purple', 168435279, 2000.0, TIMESTAMP WITH TIME ZONE '1975-10-22T10:00:00Z', 5);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Davi Schwarz', 888444111, 15000.0, TIMESTAMP WITH TIME ZONE '1960-07-07T10:00:00Z', 3);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('John Lila', 123465789, 800.0, TIMESTAMP WITH TIME ZONE '1999-09-19T10:00:00Z', 0);
