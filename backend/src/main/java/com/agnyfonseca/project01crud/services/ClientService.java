@@ -1,9 +1,8 @@
 package com.agnyfonseca.project01crud.services;
 
-import java.util.List;
-import java.util.stream.Collectors;
-
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -18,10 +17,9 @@ public class ClientService {
 	private ClientRepository repository;
 	
 	@Transactional(readOnly = true)
-	public List<ClientDTO> findAll() {
-		List<Client> listDto = repository.findAll();
+	public Page<ClientDTO> findAllPaged(PageRequest pageRequest) {
+		Page<Client> listDto = repository.findAll(pageRequest);
 		
-		return listDto.stream().map(x -> new ClientDTO(x)).collect(Collectors.toList());
+		return listDto.map(x -> new ClientDTO(x));
 	}
-
 }
